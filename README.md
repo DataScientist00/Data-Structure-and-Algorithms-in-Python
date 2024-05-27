@@ -5,7 +5,5 @@
 It contains solutions of top Leetcode problems in data structures and algorithms domain . Solving these types of probelms increases the problem solving skills.
 
 
-<a href="https://leetcode.com/problems/symmetric-tree/description/">Problem 1</a>
-<a href="https://leetcode.com/problems/binary-tree-preorder-traversal/description/">Problem 2</a>
-<a href="https://leetcode.com/problems/binary-tree-postorder-traversal/description/">Problem 3</a>
-<a href="https://leetcode.com/problems/sqrtx/description/">Problem 4</a>
+<a href="https://leetcode.com/problemset/algorithms/">Complete list of Problems</a>
+
