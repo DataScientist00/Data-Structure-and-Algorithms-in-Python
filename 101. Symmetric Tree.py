@@ -16,8 +16,6 @@ class Solution:
                 return False
             return (left.val == right.val and dfs(left.left , right.right) and dfs(left.right ,right.left))
         return dfs(root.left,root.right)
-
-        :
         return result
                 
 
