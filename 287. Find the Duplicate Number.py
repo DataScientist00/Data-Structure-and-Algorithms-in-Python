@@ -4,7 +4,7 @@ class Solution:
     def findDuplicate(self, nums: List[int]) -> int:
         #Floyd Cycle Detection Algorithm
         temp1 = temp2 = 0
-        while True: #In this loop check you check cycle exist or not
+        while True: #In this loop you check cycle exist or not
             temp1 = nums[temp1]
             temp2 = nums[nums[temp2]]
             if temp1 == temp2:
