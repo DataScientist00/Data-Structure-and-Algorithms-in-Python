@@ -10,20 +10,21 @@ class Solution:
             key = (i,flag)
             if key in memo:
                 return memo[key]
-            profit1 = profit2 = 0
+            profit = 0
             buy = dont_buy = sell = hold = 0
             if flag:
                 buy = - prices[i] + dp(i+1, not flag)
                 dont_buy = dp(i+1 , flag)
-                profit1 = max(buy, dont_buy)
+                profit = max(buy, dont_buy)
             else:
                 sell = prices[i] + dp(i+1 ,not flag)
                 hold = dp(i+1 ,flag)
-                profit2 = max(sell , hold)
-            memo[key] = max(profit1 ,profit2)
+                profit = max(sell , hold)
+            memo[key] = profit
             return memo[key]
         return dp(0,1)
 
 
 
+        
         
